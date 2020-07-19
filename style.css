@@ -1,0 +1,36 @@
+.tabs_wrapper {
+  border: 1px solid #ccc;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+.tabheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.tabheader__item {
+  padding: 8px 15px;
+  background-color: #f8f8f8;
+}
+
+.tabheader__item-show {
+  background-color: #ccc;
+}
+
+.tabcontent__item {
+  padding: 8px;
+  display: none;
+}
+
+.tabcontent__item-show {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

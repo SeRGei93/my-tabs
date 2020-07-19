@@ -10,18 +10,16 @@
     &__item{
         padding: 8px 15px;
         background-color: #f8f8f8;
-
         &-show{
             background-color: #ccc;
         }
-        
     }
 }
 
 .tabcontent__item{
     padding: 8px;
     display: none;
-    &.tabcontent__item-show{
+    &-show{
         display: block;
     }
 }
