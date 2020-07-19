@@ -39,8 +39,3 @@ const tabs = function(node){
         },
     };
 };
-
-window.addEventListener('DOMContentLoaded', () => {
-    tabs('.tabs_wrapper1');
-    tabs('.tabs_wrapper2');
-});
