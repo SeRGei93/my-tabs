@@ -33,9 +33,9 @@ const tabs = function(node){
         }
     });
 
-    return {
-        showTab: function (node) {
-            _showTab(node);
-        },
-    };
+    // return {
+    //     showTab: function (node) {
+    //         _showTab(node);
+    //     },
+    // };
 };
